@@ -43,8 +43,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2024-03-25T05:58:04Z</dcterms:created>
   <dc:creator>CorgiQvm</dc:creator>
   <cp:lastModifiedBy>CorgiQvm</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-03-26T05:10:20Z</dcterms:modified>
-  <cp:revision>1.4</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-03-26T06:00:09Z</dcterms:modified>
+  <cp:revision>1.5</cp:revision>
   <cp:version>R2023b</cp:version>
 </cp:coreProperties>
 
@@ -111,7 +111,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:1.4&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:1.5&gt;</P>
     </ConfigManagerSettings>
     <SimulationSettings>
       <P Name="SimulationMode">normal</P>
@@ -943,8 +943,8 @@ __MWOPC_PART_BEGIN__ /simulink/hdlParams.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="12c34761-962d-4a24-ac7e-f1f2c93a1106">
-    <Interface type="Interface" uuid="8df66576-aeed-4712-a485-a3625d3f01cd"/>
+  <System type="System" uuid="4eeb5e05-4d50-4f17-8d07-ad90b4c46269">
+    <Interface type="Interface" uuid="23e3fdeb-405c-4620-81e4-4b6906c258c1"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/ScheduleCore.xml
@@ -1068,7 +1068,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[375, 235, 435, 265]</P>
     <P Name="ZOrder">8</P>
-    <P Name="FunctionName">chap1_3s</P>
+    <P Name="FunctionName">chap1_3ns</P>
     <P Name="SFunctionDeploymentMode">off</P>
     <P Name="EnableBusSupport">off</P>
     <P Name="SFcnIsStateOwnerBlock">off</P>
@@ -1077,7 +1077,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[480, 235, 540, 265]</P>
     <P Name="ZOrder">9</P>
-    <P Name="FunctionName">chap1_3plant</P>
+    <P Name="FunctionName">chap1_3nplant</P>
     <P Name="SFunctionDeploymentMode">off</P>
     <P Name="EnableBusSupport">off</P>
     <P Name="SFcnIsStateOwnerBlock">off</P>
